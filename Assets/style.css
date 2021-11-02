@@ -1,0 +1,691 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+body {
+  /* height: 2000px; */
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: sticky;
+  display: flex;
+  top: 0;
+  height: 70px;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 99;
+}
+
+.humberger {
+  display: none;
+}
+.socialMedia a i {
+  /* background-color: cadetblue; */
+  font-size: 18px;
+  margin: 0 4px;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 15px;
+}
+nav ul li a {
+  font-size: 15px;
+  color: rgba(0, 0, 0);
+}
+
+.keranjang a i {
+  font-size: 18px;
+  margin: 0 6px;
+}
+.keranjang a i {
+  font-size: 18px;
+  margin: 0 6px;
+}
+
+.container-top {
+  max-width: 1215px;
+  padding: 70px 0 30px 0;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* position: relative; */
+}
+
+.container-top section {
+  width: 55%;
+  padding-right: 10%;
+}
+
+.container-top section h4 {
+  color: #0f3057;
+  font-size: 28px;
+  letter-spacing: 10px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.container-top section h2 {
+  font-size: 54px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  /* border: 2px solid black; */
+}
+
+.container-top .logo {
+  width: 45%;
+  text-align: center;
+}
+.container-top img {
+  width: 250px;
+}
+
+section .selengkapnya {
+  border: 1px solid #0f3057;
+  background-color: white;
+  padding: 8px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+section .pasar {
+  color: white;
+  background-color: #0f3057;
+  padding: 8px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+/* .container-top-2 */
+.container-top-2 {
+  padding: 80px 0;
+  box-shadow: 0px 10px 13px -7px rgb(234 234 234 / 50%);
+}
+.container-kelebihan {
+  max-width: 1215px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.container-top-2 section {
+  width: 28%;
+}
+.container-top-2 section h3 {
+  letter-spacing: 10px;
+  line-height: 3.5em;
+  font-size: 15px;
+  color: #0f3057;
+}
+.container-top-2 section p {
+  text-align: justify;
+  line-height: 2em;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.container-mid h2 {
+  max-width: 73%;
+  font-size: 16px;
+  color: #0f3057;
+  margin: 80px auto 40px;
+}
+.container-mid .container-jenis-ikan {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-jenis-ikan section:hover {
+  box-shadow: 0px 40px 64px -10px rgba(0, 0, 0, 0.1);
+}
+.container-jenis-ikan section {
+  width: 17%;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #efeef4;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.container-jenis-ikan section img {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+}
+.container-jenis-ikan section h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #2b2f38;
+  font-size: 14px;
+  padding: 28px 38px 0 28px;
+  line-height: 2.5em;
+}
+.container-jenis-ikan section p {
+  font-weight: 400;
+  color: #7a7a7a;
+  line-height: 2em;
+  font-size: 14px;
+  margin: 0 42px 30px 28px;
+}
+.container-jenis-ikan section a {
+  font-weight: 600;
+  color: #0f3057;
+  font-size: 10px;
+  margin: 0 38px 48px 28px;
+  letter-spacing: 3px;
+}
+
+/* Tentang Kami */
+.container-TentangKami {
+  margin: 120px 0 60px;
+  padding: 70px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+.container-TentangKami h1 {
+  text-transform: uppercase;
+  padding: 0 0 20px;
+}
+.container-TentangKami .produk-kami {
+  max-width: 1215px;
+  text-align: center;
+  margin: 0 auto;
+}
+.container-TentangKami .produk-kami p,
+.container-TentangKami .produk-kami b {
+  font-size: 100%;
+  color: #808285;
+}
+.container-TentangKami .produk-kami p {
+  line-height: 1.8em;
+  margin: 0 150px 50px;
+}
+
+.produk-kami img {
+  width: 85%;
+  border-radius: 8px;
+}
+
+/* css Tim-Kami */
+.Tim-Kami {
+  padding: 60px;
+  margin: 0 auto;
+  max-width: 1215px;
+  text-align: center;
+}
+.Tim-Kami > p {
+  line-height: 2em;
+  margin: 20px 20% 90px;
+  color: #7a7a7a;
+}
+.Tim-Kami aside {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Tim-Kami aside section img {
+  width: auto;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.container-tim {
+  width: 100%;
+  position: relative;
+}
+.container-tim > aside > section > h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Tim-Kami aside section p {
+  font-size: 14px;
+  line-height: 1.8em;
+  margin-bottom: 20px;
+  color: #7a7a7a;
+}
+.Tim-Kami aside section hr {
+  line-height: 2em;
+  margin: 0 auto;
+  width: 15%;
+  border: 1px solid greenyellow;
+}
+.prev-btn,
+.next-btn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  /* padding: 10px; */
+  background: white;
+  transform: translateY(-50%);
+}
+.prev-btn {
+  left: 5%;
+}
+.next-btn {
+  right: 5%;
+}
+/* Hubungi Kami */
+.Hubungi-Kami {
+  display: flex;
+  justify-content: center;
+  max-width: 1215px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.container-Kontak-Kami {
+  margin-right: 20px;
+}
+.container-Kontak-Kami,
+.Temukan-Kami {
+  width: 45%;
+}
+
+.container-Kontak-Kami > h2,
+.Temukan-Kami h2,
+.kirim-email h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.Kontak-kami {
+  display: flex;
+  flex-wrap: wrap;
+}
+.lokasi,
+.telp {
+  width: 50%;
+  margin: 0 0 20px 0;
+}
+.Temukan-Kami small a {
+  position: relative;
+  top: 10px;
+  color: #0f3057;
+}
+
+.flex {
+  display: flex;
+}
+
+.lokasi span,
+.telp span,
+.Email span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #2ca5c31f;
+  margin-right: 20px;
+}
+
+.Email,
+.kirim-email {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.isi-lokasi h3,
+.isi-telp h3,
+.isi-telp h3,
+.isi-Email h3 {
+  line-height: 1.5em;
+  font-size: 16px;
+  font-weight: 600;
+}
+.isi-lokasi p,
+.isi-telp p,
+.isi-telp p,
+.isi-Email p {
+  line-height: 1.5em;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Kontak-kami hr {
+  width: 85%;
+  margin: 20px 0 40px 0;
+  background-color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 500px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 500px;
+}
+
+.kirim-email form input,
+.kirim-email form textarea {
+  width: 85%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 2px;
+  background-color: #fafafa;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+.kirim-email form textarea {
+  height: 150px;
+}
+.button {
+  border: none;
+  color: #fff;
+  background-color: #0f3057;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background-image: linear-gradient(180deg, #436fa4, #0f3057);
+  text-align: center;
+  padding: 10px 0;
+}
+footer > section {
+  padding: 4% 35% 15%;
+}
+footer > section > h2 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+footer > section > p,
+footer > span {
+  color: #e0e0e0;
+  line-height: 1.5em;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* resposif pengguna tablet */
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 0 20px;
+    justify-content: space-between;
+  }
+
+  .socialMedia {
+    display: none;
+  }
+
+  .container-top section {
+    padding: 0 0 0 40px;
+  }
+  .container-top section h2 {
+    font-size: 38px;
+  }
+  section .selengkapnya {
+    width: 100%;
+  }
+
+  .container-top img {
+    width: 200px;
+  }
+
+  .container-top-2 {
+    padding: 80px 40px;
+  }
+  .container-top-2 section {
+    width: 30%;
+  }
+
+  /* bagian jenis ikan */
+
+  .container-mid h2 {
+    text-align: center;
+    max-width: 100%;
+    margin: 80px 40px 40px;
+  }
+  .container-jenis-ikan section {
+    margin: 0 5px;
+    width: 22%;
+  }
+  .container-jenis-ikan section h3 {
+    padding: 28px 0 0;
+    text-align: center;
+  }
+  .container-jenis-ikan section p {
+    margin: 0;
+    text-align: center;
+  }
+
+  .container-jenis-ikan section a {
+    margin: 25px 0 45px;
+    text-align: center;
+  }
+
+  /* Tentang Kami  */
+  .container-TentangKami .produk-kami p {
+    margin: 0 0 50px;
+  }
+  .produk-kami img {
+    width: 100%;
+  }
+
+  /* TIM KAMI */
+  .Tim-Kami {
+    padding: 40px 20px 20px;
+  }
+  .Tim-Kami > p {
+    margin: 20px 15% 60px;
+  }
+  .Tim-Kami aside section img {
+    height: 250px;
+  }
+  .container-tim {
+    height: 365px;
+    overflow-x: hidden;
+  }
+
+  /* Hubungi Kami */
+  .Hubungi-Kami {
+    flex-direction: column;
+  }
+
+  .container-Kontak-Kami,
+  .Temukan-Kami {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .container-Kontak-Kami > h2,
+  .Temukan-Kami h2,
+  .kirim-email h2 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .Kontak-kami {
+    margin-bottom: 40px;
+  }
+  .Kontak-kami hr {
+    width: 100%;
+  }
+  .kirim-email form input,
+  .kirim-email form textarea {
+    width: 100%;
+  }
+  iframe,
+  .gmap_canvas,
+  .mapouter {
+    width: 100%;
+  }
+
+  /* FOOTER */
+  footer > section {
+    padding: 15% 10% 40%;
+  }
+}
+
+/* responsif pengguna handphone */
+@media screen and (max-width: 700px) {
+  nav ul li {
+    border: 0;
+    border-width: 0.3px 0;
+    border-style: solid;
+    border-color: #eaeaea;
+  }
+
+  .humberger {
+    display: block;
+    width: 45px;
+    padding: 12px 0;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  nav ul {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    /* border: 2px solid black; */
+  }
+
+  nav ul li {
+    display: block;
+    background-color: #f5f5f5;
+    line-height: 2.5em;
+  }
+  /* menampilkan navigasi versi hp */
+  nav ul.showNav {
+    display: block;
+  }
+
+  .container-top {
+    padding: 0px;
+    flex-direction: column-reverse;
+  }
+  .container-top section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .container-top section h2 {
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .container-top .logo {
+    width: 100%;
+  }
+
+  .container-top img {
+    width: 250px;
+  }
+
+  a.selengkapnya {
+    width: 180px;
+    margin: 0 0 10px 0;
+  }
+  a.pasar {
+    width: 100px;
+  }
+
+  /* bagian kelebihan */
+  .container-top-2 {
+    padding: 60px 40px 40px;
+  }
+  .container-kelebihan {
+    flex-direction: column;
+  }
+  .container-kelebihan section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container-kelebihan section p {
+    height: auto;
+    text-align: center;
+  }
+
+  /* bagian jenis ikan yang dijual */
+  .container-mid .container-jenis-ikan {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .container-jenis-ikan section {
+    width: 45%;
+    margin: 10px 0;
+  }
+
+  /* Tentang Kami  */
+  .container-TentangKami {
+    padding: 70px 30px;
+  }
+  .container-TentangKami .produk-kami p {
+    margin: 0 0 30px;
+  }
+
+  /* TIM KAMI */
+  .Tim-Kami > p {
+    margin: 20px 0 60px;
+  }
+
+  .Kontak-kami {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .lokasi,
+  .telp,
+  .Email {
+    width: 100%;
+  }
+  .container-Kontak-Kami > h2,
+  .Temukan-Kami h2,
+  .kirim-email h2 {
+    margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: 540px) {
+    .Tim-Kami aside {
+      position: relative;
+      height: 100%;
+      display: block;
+      transition: 400ms ease;
+    }
+    .Tim-Kami aside section {
+      width: 100%;
+      position: absolute;
+    }
+    .next-btn {
+      display: block;
+    }
+  }
+}
